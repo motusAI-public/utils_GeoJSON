@@ -21,5 +21,22 @@ The script generates a `.geojson` file in the same directory. The `.geojson` fil
 ### Configuration
 The script allows for a single configuration, the point spacing. The point spacing is defined in meters, and it is specified in the `point_spacing = 3000` statement. Replace the value with the desired point space.
 
+## geoPoint2CsvTransform.py
+Extracting Latitude and Longitude from GeoJSON
+This script demonstrates how to extract the latitude and longitude values for each point in a GeoJSON file and write them to a CSV file.
+
+### Dependencies
+- geojson library: used to parse the GeoJSON data
+- csv library: used to write the data to a CSV file
+
+### Usage
+1. Replace `"points.geojson"` with the file path of your GeoJSON file.
+2. Replace `"lat_lon.csv"` with the desired file path for the output CSV file.
+3. Run the script.
+
+### Code Explanation
+The script begins by importing the necessary libraries and loading the GeoJSON data using the `geojson.load()` function.
+Then it opens a CSV file for writing and creates a CSV writer object. The script then iterates through the features in the GeoJSON data, and for each feature, it extracts the latitude and longitude values and writes them to the CSV file.
+
 ## License
 all data, as it is represented in this repository, is available under the mentioned license with the original creator(s) of the repository as the legal license holder(s). The license allows for free and non-commercial use as described in the license. 
