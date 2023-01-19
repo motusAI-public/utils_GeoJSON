@@ -1,5 +1,11 @@
 # Utils GeoJSON
-A set of utilities, primarily written in Python to help with the handling, interpretation and generation of GeoJSON data.
+GeoJSON is a widely-used data format for representing geographical features and their properties. It is a lightweight and easy-to-read format that is based on the JSON (JavaScript Object Notation) standard, making it easy to process and visualize using a variety of tools, including those written in Python.
+
+MotusAI uses GeoJSON extensively in its work as it provides a powerful and flexible way to represent and handle geographical data. The use of GeoJSON allows MotusAI to provide geographical context to its models and also to support the visualization of data in a human-friendly manner. The utilities provided by MotusAI are primarily written in Python and are designed to help with the handling, interpretation, and generation of GeoJSON data.
+
+One of the key benefits of using GeoJSON is its ability to represent a wide range of geographical features, including points, lines, and polygons, making it suitable for a wide range of use cases. Additionally, GeoJSON is also supported by a wide range of GIS software and mapping libraries, making it easy to visualize and analyze geographical data.
+
+In summary, GeoJSON is a widely-used data format that is well suited for representing and handling geographical data. MotusAI uses GeoJSON to provide geographical context to its models and to support the visualization of data in a human-friendly manner, and provides a set of utilities primarily written in Python to help with handling, interpretation, and generation of GeoJSON data.
 
 ## pointGridGenerator.py
 Generating a Grid of Geographic Points
